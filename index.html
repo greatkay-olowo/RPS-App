@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>Rock Paper Scissors Game</title>
+<link rel="stylesheet" href="">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<script src="https://kit.fontawesome.com/7b9638af0a.js"></script>
+
+<body>
+    <header class="header">
+        <h1>Rock Paper Scissors Game</h1> 
+    </header>
+    
+  
+        <div class="container"> 
+           <div class="score-container">
+                <span class="user">You</span> 
+                <span id="score"></span> 
+                <span class="com">Com</span> 
+            </div>
+        
+            <div class="button">
+                <button class='btn' onclick="game(this.value)" value="paper" >
+                    <li value="paper" id="paper" class="playBtn far fa-hand-paper green"></li>
+                </button>
+                <button class='btn' onclick="game(this.value)" value="rock" >
+                    <li value="rock" class="playBtn far fa-hand-rock"></li>
+                </button>
+                <button class='btn' onclick="game(this.value)" value="scissors" >
+                    <li value="scissors" class="playBtn far fa-hand-scissors"></li>
+                </button>
+            </div>
+            
+            <div id="challenge">
+               <div id="you">
+                    <div id="yourObject"></div>
+                    <div class="whoYou">You</div>
+                </div>
+                <div id="result"> <p id="resultNaration"></p> </div>
+                <div id="com">
+                    <div id="comObject"></div>
+                    <div class="whoCom">Computer</div>
+                </div>
+            </div>
+            
+            <div id="scoreReset">Start Again</div>
+        
+        </div>
+        
+        <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
