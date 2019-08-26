@@ -10,3 +10,4 @@ Rules:
 2. Rock beat Scissors
 3. Scissors Beat Paper
 
+I also added the algorithm that detarmines the computer choices in Python
