@@ -1,6 +1,8 @@
 # Rock---Paper---Scissors-App
 Rock paper scissors app.
 
+This app was built with HTML5, CSS3 and Vanilla Javscript.
+
 This app allows you to play Rock Paper Scissors game with the computer.
 
 The computer plays at random.
