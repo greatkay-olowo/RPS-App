@@ -23,7 +23,7 @@ const score = () => {
     let scoreDiv = document.getElementById('score').innerHTML = `${userPoints} - ${comPoints}`;
 }
 
-setInterval(score, 50);
+setInterval(score, 100);
 
 /* SHOW CLICKED BUTTON IN THE PLAYED CIRCLE */
 
